@@ -9,7 +9,7 @@ version = "0.3.0"
 
 [dependencies]
 base64 = "0.22"
-sentry = { version = "0.32.3", features = ["UNSTABLE_metrics", "tracing"] }
+sentry = { version = "0.32.3", features = ["UNSTABLE_metrics", "tracing", "anyhow"] }
 sentry-rust-minidump = "0.7"
 serde = "1"
 tauri = "1"
