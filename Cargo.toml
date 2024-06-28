@@ -11,7 +11,7 @@ version = "0.3.0"
 base64 = "0.22"
 sentry = { version = "0.34.0", features = ["metrics", "tracing", "anyhow", "backtrace", "debug-images"] }
 sentry-anyhow = { version = "0.34.0", features = ["backtrace"] }
-sentry-rust-minidump = { git = "https://github.com/dmitov/sentry-rust-minidump/blob/master/Cargo.toml", branch = "master" }
+sentry-rust-minidump = { git = "https://github.com/dmitov/sentry-rust-minidump/", branch = "master" }
 serde = "1"
 tauri = "1"
 thiserror = "1"
