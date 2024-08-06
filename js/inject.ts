@@ -1,4 +1,4 @@
-import * as Sentry from "@sentry/browser";
+import * as Sentry from "@sentry/nextjs";
 import { defaultOptions } from "./";
 
 declare var __DEBUG__: boolean;
